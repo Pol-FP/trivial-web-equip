@@ -63,7 +63,70 @@ const preguntes = {
         }
     ],
 
-    geografia: [],
+
+    geografia: [
+        {
+            id: 11,
+            pregunta: "Quina és la capital de França?",
+            opcions: ["Roma", "París", "Berlín", "Madrid"],
+            correcta: 1
+        },
+        {
+            id: 12,
+            pregunta: "Quin és l'oceà més gran del món?",
+            opcions: ["Atlàntic", "Índic", "Àrtic", "Pacífic"],
+            correcta: 3
+        },
+        {
+            id: 13,
+            pregunta: "En quin continent es troba Egipte?",
+            opcions: ["Àfrica", "Europa", "Àsia", "Amèrica"],
+            correcta: 0
+        },
+        {
+            id: 14,
+            pregunta: "Quina és la capital d'Austràlia?",
+            opcions: ["Sydney", "Melbourne", "Canberra", "Perth"],
+            correcta: 2
+        },
+        {
+            id: 15,
+            pregunta: "Quin és el país més gran del món per superfície?",
+            opcions: ["Canadà", "Rússia", "Xina", "Brasil"],
+            correcta: 1
+        },
+        {
+            id: 16,
+            pregunta: "Quin riu passa per la ciutat de Londres?",
+            opcions: ["Sena", "Danubi", "Rin", "Tàmesi"],
+            correcta: 3
+        },
+        {
+            id: 17,
+            pregunta: "Quina és la muntanya més alta del món sobre el nivell del mar?",
+            opcions: ["Everest", "K2", "Mont Blanc", "Kilimanjaro"],
+            correcta: 0
+        },
+        {
+            id: 18,
+            pregunta: "En quin país es troba la ciutat de Venècia?",
+            opcions: ["Grècia", "França", "Itàlia", "Portugal"],
+            correcta: 2
+        },
+        {
+            id: 19,
+            pregunta: "Quin desert es troba al nord d'Àfrica?",
+            opcions: ["Gobi", "Sàhara", "Atacama", "Kalahari"],
+            correcta: 1
+        },
+        {
+            id: 20,
+            pregunta: "Quina és la capital del Japó?",
+            opcions: ["Kyoto", "Osaka", "Hiroshima", "Tòquio"],
+            correcta: 3
+        }
+    ],
+
 
     historia: [],
 
