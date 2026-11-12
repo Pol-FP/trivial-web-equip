@@ -193,7 +193,70 @@ const preguntes = {
     ],
 
 
-    ciencia: [],
+
+    ciencia: [
+        {
+            id: 31,
+            pregunta: "Quin planeta és conegut com el planeta vermell?",
+            opcions: ["Venus", "Mart", "Júpiter", "Mercuri"],
+            correcta: 1
+        },
+        {
+            id: 32,
+            pregunta: "Quin gas absorbeixen les plantes durant la fotosíntesi?",
+            opcions: ["Oxigen", "Nitrogen", "Heli", "Diòxid de carboni"],
+            correcta: 3
+        },
+        {
+            id: 33,
+            pregunta: "Quin és el símbol químic de l'aigua?",
+            opcions: ["H2O", "CO2", "O2", "NaCl"],
+            correcta: 0
+        },
+        {
+            id: 34,
+            pregunta: "Quants ossos té habitualment l'esquelet humà adult?",
+            opcions: ["180", "250", "206", "150"],
+            correcta: 2
+        },
+        {
+            id: 35,
+            pregunta: "Quin és l'animal terrestre més ràpid?",
+            opcions: ["Lleó", "Guepard", "Cavall", "Tigre"],
+            correcta: 1
+        },
+        {
+            id: 36,
+            pregunta: "Quin és el planeta més gran del sistema solar?",
+            opcions: ["Saturn", "Neptú", "Terra", "Júpiter"],
+            correcta: 3
+        },
+        {
+            id: 37,
+            pregunta: "Quin òrgan bombeja la sang pel cos humà?",
+            opcions: ["Cor", "Pulmó", "Fetge", "Ronyó"],
+            correcta: 0
+        },
+        {
+            id: 38,
+            pregunta: "A quina temperatura es congela l'aigua pura a pressió atmosfèrica normal?",
+            opcions: ["10 °C", "-10 °C", "0 °C", "5 °C"],
+            correcta: 2
+        },
+        {
+            id: 39,
+            pregunta: "Quin és el mamífer més gran del món?",
+            opcions: ["Elefant africà", "Balena blava", "Girafa", "Orca"],
+            correcta: 1
+        },
+        {
+            id: 40,
+            pregunta: "Quina força ens manté sobre la superfície de la Terra?",
+            opcions: ["Magnetisme", "Fricció", "Electricitat", "Gravetat"],
+            correcta: 3
+        }
+    ],
+
 
     cultura: []
 };
