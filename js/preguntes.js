@@ -258,5 +258,68 @@ const preguntes = {
     ],
 
 
-    cultura: []
+
+    cultura: [
+        {
+            id: 41,
+            pregunta: "Qui va pintar la Mona Lisa?",
+            opcions: ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Salvador Dalí"],
+            correcta: 0
+        },
+        {
+            id: 42,
+            pregunta: "Quin personatge de videojocs és un lampista amb una gorra vermella?",
+            opcions: ["Sonic", "Link", "Mario", "Kirby"],
+            correcta: 2
+        },
+        {
+            id: 43,
+            pregunta: "Qui va escriure els llibres de Harry Potter?",
+            opcions: ["Stephen King", "J. K. Rowling", "J. R. R. Tolkien", "Roald Dahl"],
+            correcta: 1
+        },
+        {
+            id: 44,
+            pregunta: "Quin instrument musical té tecles blanques i negres?",
+            opcions: ["Violí", "Guitarra", "Trompeta", "Piano"],
+            correcta: 3
+        },
+        {
+            id: 45,
+            pregunta: "Com es diu el protagonista del videojoc Minecraft que porta una samarreta blava?",
+            opcions: ["Steve", "Alex", "Sonic", "Mario"],
+            correcta: 0
+        },
+        {
+            id: 46,
+            pregunta: "Quin grup musical va publicar la cançó Bohemian Rhapsody?",
+            opcions: ["The Beatles", "AC/DC", "Queen", "Nirvana"],
+            correcta: 2
+        },
+        {
+            id: 47,
+            pregunta: "Com es diu el lleó protagonista d'El rei lleó?",
+            opcions: ["Mufasa", "Simba", "Scar", "Timon"],
+            correcta: 1
+        },
+        {
+            id: 48,
+            pregunta: "Qui va escriure Don Quixot de la Manxa?",
+            opcions: ["William Shakespeare", "Federico García Lorca", "Jules Verne", "Miguel de Cervantes"],
+            correcta: 3
+        },
+        {
+            id: 49,
+            pregunta: "Quin superheroi utilitza un escut circular amb una estrella?",
+            opcions: ["Capità Amèrica", "Batman", "Spider-Man", "Hulk"],
+            correcta: 0
+        },
+        {
+            id: 50,
+            pregunta: "Quin estudi d'animació va crear Toy Story?",
+            opcions: ["DreamWorks", "Studio Ghibli", "Pixar", "Illumination"],
+            correcta: 2
+        }
+    ]
+
 };
