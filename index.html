@@ -214,41 +214,9 @@
   </main>
 
   <!-- Només canvia entre les dues pantalles; no conté lògica del qüestionari. -->
-  <script>
-    const screens = {
-      home: document.getElementById("home"),
-      categories: document.getElementById("categories")
-    };
-
-    const gameBody = document.querySelector(".game-body");
-    const menu = document.getElementById("screen-menu");
-    const menuToggle = document.getElementById("menu-toggle");
-
-    function showScreen(name) {
-      if (!screens[name]) return;
-
-      for (const [screenName, section] of Object.entries(screens)) {
-        section.hidden = screenName !== name;
-      }
-
-      gameBody.dataset.view = name;
-      menu.hidden = true;
-      menuToggle.setAttribute("aria-expanded", "false");
-    }
-
-    document.querySelectorAll("[data-screen]").forEach((button) => {
-      button.addEventListener("click", () => showScreen(button.dataset.screen));
-    });
-
-    document.querySelector(".brand").addEventListener("click", (event) => {
-      event.preventDefault();
-      showScreen("home");
-    });
-
-    menuToggle.addEventListener("click", () => {
-      menu.hidden = !menu.hidden;
-      menuToggle.setAttribute("aria-expanded", String(!menu.hidden));
-    });
-  </script>
+  <script src="js/preguntes.js"></script>
+  <script src="js/acces.js"></script>
+  <script src="js/categories.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
