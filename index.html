@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#8d35d3">
+  <meta name="description" content="QuizParty, un joc de preguntes d'estil retro pixel.">
+  <title>QuizParty — Demostra quant saps!</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <main class="game-window" aria-label="QuizParty">
+    <div class="window-bar" aria-hidden="true">
+      <div class="window-dots">
+        <i></i><i></i><i></i>
+      </div>
+      <div class="bar-shine"></div>
+    </div>
+
+    <div class="game-body" data-view="home">
+      <!-- Núvols -->
+      <div class="sky" aria-hidden="true">
+        <span class="sprite cloud cloud-left"></span>
+        <span class="sprite cloud cloud-right"></span>
+      </div>
+
+      <!-- Capçalera compartida -->
+      <header class="main-header">
+        <button
+          type="button"
+          class="icon-button header-back"
+          data-screen="home"
+          aria-label="Torna a l'inici"
+        >
+          <svg class="ui-icon" aria-hidden="true">
+            <use href="assets/ui-icons.svg#ui-back"></use>
+          </svg>
+        </button>
+
+        <a class="brand" href="#home" aria-label="QuizParty, inici">
+          <span class="sprite brain" aria-hidden="true"></span>
+          <span class="logo-text">Quiz<b>Party</b></span>
+        </a>
+
+        <button
+          type="button"
+          class="icon-button"
+          id="menu-toggle"
+          aria-label="Obre el menú"
+          aria-controls="screen-menu"
+          aria-expanded="false"
+        >
+          <svg class="ui-icon" aria-hidden="true">
+            <use href="assets/ui-icons.svg#ui-gear"></use>
+          </svg>
+        </button>
+
+        <nav
+          id="screen-menu"
+          class="screen-menu"
+          aria-label="Menú del joc"
+          hidden
+        >
+          <button type="button" data-screen="home">Inici</button>
+          <button type="button" data-screen="categories">Categories</button>
+        </nav>
+      </header>
+
+      <!-- Pantalla 1: inici -->
+      <section
+        id="home"
+        class="screen home-screen"
+        aria-labelledby="home-title"
+      >
+        <div class="home-content">
+          <div class="title-wrap">
+            <span class="sprite brain hero-brain" aria-hidden="true"></span>
+
+            <span class="spark left-spark" aria-hidden="true">
+              <svg class="ui-icon">
+                <use href="assets/ui-icons.svg#ui-spark"></use>
+              </svg>
+            </span>
+
+            <span class="spark right-spark" aria-hidden="true">
+              <svg class="ui-icon">
+                <use href="assets/ui-icons.svg#ui-spark"></use>
+              </svg>
+            </span>
+
+            <div class="title-plaque">
+              <h1 id="home-title">Demostra<br>quant saps!</h1>
+            </div>
+          </div>
+
+          <div class="name-input pixel-panel">
+            <label class="sr-only" for="player-name">El teu nom</label>
+
+            <span class="person-icon" aria-hidden="true">
+              <svg class="ui-icon">
+                <use href="assets/ui-icons.svg#ui-user"></use>
+              </svg>
+            </span>
+
+            <input
+              type="text"
+              id="player-name"
+              name="player-name"
+              placeholder="El teu nom..."
+              maxlength="20"
+              autocomplete="nickname"
+            >
+          </div>
+
+          <button
+            type="button"
+            id="start-game"
+            class="pixel-button primary start-button"
+            data-screen="categories"
+          >
+            <span>COMENÇA!</span>
+            <span class="start-arrow" aria-hidden="true">
+              <svg class="ui-icon">
+                <use href="assets/ui-icons.svg#ui-play"></use>
+              </svg>
+            </span>
+          </button>
+        </div>
+
+        <span class="sprite hero scene-character" aria-hidden="true"></span>
+      </section>
+
+      <!-- Pantalla 2: categories -->
+      <section
+        id="categories"
+        class="screen categories-screen"
+        aria-labelledby="categories-title"
+        hidden
+      >
+        <h1 class="ribbon" id="categories-title">Tria una categoria</h1>
+
+        <div class="category-grid">
+          <button type="button" class="category geography" data-category="geografia">
+            <span class="sprite globe" aria-hidden="true"></span>
+            <strong>Geografia</strong>
+            <span class="category-arrow" aria-hidden="true">
+              <svg class="ui-icon">
+                <use href="assets/ui-icons.svg#ui-forward"></use>
+              </svg>
+            </span>
+          </button>
+
+          <button type="button" class="category science" data-category="ciencia">
+            <span class="sprite flask" aria-hidden="true"></span>
+            <strong>Ciència</strong>
+            <span class="category-arrow" aria-hidden="true">
+              <svg class="ui-icon">
+                <use href="assets/ui-icons.svg#ui-forward"></use>
+              </svg>
+            </span>
+          </button>
+
+          <button type="button" class="category videogames" data-category="videojocs">
+            <span class="sprite controller" aria-hidden="true"></span>
+            <strong>Videojocs</strong>
+            <span class="category-arrow" aria-hidden="true">
+              <svg class="ui-icon">
+                <use href="assets/ui-icons.svg#ui-forward"></use>
+              </svg>
+            </span>
+          </button>
+
+          <button type="button" class="category sports" data-category="esports">
+            <span class="sprite ball" aria-hidden="true"></span>
+            <strong>Esports</strong>
+            <span class="category-arrow" aria-hidden="true">
+              <svg class="ui-icon">
+                <use href="assets/ui-icons.svg#ui-forward"></use>
+              </svg>
+            </span>
+          </button>
+
+          <button type="button" class="category history" data-category="historia">
+            <span class="sprite column" aria-hidden="true"></span>
+            <strong>Història</strong>
+            <span class="category-arrow" aria-hidden="true">
+              <svg class="ui-icon">
+                <use href="assets/ui-icons.svg#ui-forward"></use>
+              </svg>
+            </span>
+          </button>
+
+          <button type="button" class="category culture" data-category="cultura">
+            <span class="sprite book" aria-hidden="true"></span>
+            <strong>Cultura<br class="desktop-only"> general</strong>
+            <span class="category-arrow" aria-hidden="true">
+              <svg class="ui-icon">
+                <use href="assets/ui-icons.svg#ui-forward"></use>
+              </svg>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Paisatge compartit -->
+      <div class="landscape" aria-hidden="true">
+        <span class="sprite bush bush-left"></span>
+        <span class="sprite bush bush-right"></span>
+        <span class="sprite trophy scene-trophy"></span>
+        <div class="ground"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Només canvia entre les dues pantalles; no conté lògica del qüestionari. -->
+  <script>
+    const screens = {
+      home: document.getElementById("home"),
+      categories: document.getElementById("categories")
+    };
+
+    const gameBody = document.querySelector(".game-body");
+    const menu = document.getElementById("screen-menu");
+    const menuToggle = document.getElementById("menu-toggle");
+
+    function showScreen(name) {
+      if (!screens[name]) return;
+
+      for (const [screenName, section] of Object.entries(screens)) {
+        section.hidden = screenName !== name;
+      }
+
+      gameBody.dataset.view = name;
+      menu.hidden = true;
+      menuToggle.setAttribute("aria-expanded", "false");
+    }
+
+    document.querySelectorAll("[data-screen]").forEach((button) => {
+      button.addEventListener("click", () => showScreen(button.dataset.screen));
+    });
+
+    document.querySelector(".brand").addEventListener("click", (event) => {
+      event.preventDefault();
+      showScreen("home");
+    });
+
+    menuToggle.addEventListener("click", () => {
+      menu.hidden = !menu.hidden;
+      menuToggle.setAttribute("aria-expanded", String(!menu.hidden));
+    });
+  </script>
+</body>
+</html>
