@@ -320,6 +320,80 @@ const preguntes = {
             opcions: ["DreamWorks", "Studio Ghibli", "Pixar", "Illumination"],
             correcta: 2
         }
+    ],
+
+    videojocs: [
+        {
+            id: 51,
+            pregunta: "Com es diu l'heroi principal de la saga The Legend of Zelda?",
+            opcions: ["Zelda", "Link", "Ganondorf", "Kirby"],
+            correcta: 1
+        },
+        {
+            id: 52,
+            pregunta: "Quin Pokémon és conegut pels seus poders elèctrics i el seu color groc?",
+            opcions: ["Charmander", "Squirtle", "Bulbasaur", "Pikachu"],
+            correcta: 3
+        },
+        {
+            id: 53,
+            pregunta: "Quants quadrats formen cadascuna de les peces del Tetris?",
+            opcions: ["4", "3", "5", "6"],
+            correcta: 0
+        },
+        {
+            id: 54,
+            pregunta: "Què recull habitualment Sonic durant els seus nivells?",
+            opcions: ["Monedes", "Estrelles", "Anells", "Diamants"],
+            correcta: 2
+        },
+        {
+            id: 55,
+            pregunta: "Quins enemics persegueixen el protagonista de Pac-Man?",
+            opcions: ["Robots", "Fantasmes", "Dracs", "Zombis"],
+            correcta: 1
+        },
+        {
+            id: 56,
+            pregunta: "En quin videojoc es juga a futbol amb cotxes?",
+            opcions: ["FIFA", "Gran Turismo", "Mario Kart", "Rocket League"],
+            correcta: 3
+        },
+        {
+            id: 57,
+            pregunta: "Com es diu la ciutat principal de Grand Theft Auto V?",
+            opcions: ["Los Santos", "Vice City", "Liberty City", "San Fierro"],
+            correcta: 0
+        },
+        {
+            id: 58,
+            pregunta: "Quin personatge ofereix préstecs per construir i ampliar la casa a Animal Crossing?",
+            opcions: ["Canela", "Totakeke", "Tom Nook", "Rese T."],
+            correcta: 2
+        },
+        {
+            id: 59,
+            pregunta: "Quin és l'objectiu principal dels impostors a Among Us?",
+            opcions: [
+                "Completar totes les tasques",
+                "Eliminar els tripulants sense ser descoberts",
+                "Reparar la nau espacial",
+                "Recollir monedes"
+            ],
+            correcta: 1
+        },
+        {
+            id: 60,
+            pregunta: "Quina eina especial utilitza la protagonista de Portal per resoldre puzles?",
+            opcions: [
+                "Una espasa làser",
+                "Un martell",
+                "Una pistola de gel",
+                "Una pistola que crea portals"
+            ],
+            correcta: 3
+        }
     ]
+
 
 };
