@@ -128,7 +128,70 @@ const preguntes = {
     ],
 
 
-    historia: [],
+
+    historia: [
+        {
+            id: 21,
+            pregunta: "En quin any va arribar Cristòfor Colom a Amèrica?",
+            opcions: ["1492", "1510", "1453", "1500"],
+            correcta: 0
+        },
+        {
+            id: 22,
+            pregunta: "Quina civilització va construir les piràmides de Gizeh?",
+            opcions: ["Romana", "Grega", "Egípcia", "Maia"],
+            correcta: 2
+        },
+        {
+            id: 23,
+            pregunta: "En quin any va acabar la Segona Guerra Mundial?",
+            opcions: ["1939", "1945", "1950", "1942"],
+            correcta: 1
+        },
+        {
+            id: 24,
+            pregunta: "Qui va ser el primer emperador romà?",
+            opcions: ["Neró", "Juli Cèsar", "Trajà", "August"],
+            correcta: 3
+        },
+        {
+            id: 25,
+            pregunta: "En quin país es va iniciar la Revolució Industrial?",
+            opcions: ["Gran Bretanya", "França", "Alemanya", "Itàlia"],
+            correcta: 0
+        },
+        {
+            id: 26,
+            pregunta: "Quin mur va caure l'any 1989?",
+            opcions: ["Mur d'Adrià", "Muralla Xinesa", "Mur de Berlín", "Mur de les Lamentacions"],
+            correcta: 2
+        },
+        {
+            id: 27,
+            pregunta: "Qui va ser el primer ésser humà que va trepitjar la Lluna?",
+            opcions: ["Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "Michael Collins"],
+            correcta: 1
+        },
+        {
+            id: 28,
+            pregunta: "En quin any va començar la Revolució Francesa?",
+            opcions: ["1804", "1776", "1815", "1789"],
+            correcta: 3
+        },
+        {
+            id: 29,
+            pregunta: "Quina ciutat romana va quedar sepultada pel Vesuvi l'any 79?",
+            opcions: ["Pompeia", "Atenes", "Roma", "Cartago"],
+            correcta: 0
+        },
+        {
+            id: 30,
+            pregunta: "Qui va introduir la impremta de tipus mòbils metàl·lics a Europa al segle XV?",
+            opcions: ["Galileu", "Leonardo da Vinci", "Johannes Gutenberg", "Isaac Newton"],
+            correcta: 2
+        }
+    ],
+
 
     ciencia: [],
 
